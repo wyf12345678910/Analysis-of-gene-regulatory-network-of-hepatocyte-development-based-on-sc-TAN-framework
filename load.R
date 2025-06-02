@@ -41,7 +41,7 @@ library(GENIE3)
 library(monocle)
 rm(list = ls())
 setwd("D:/R/R工作区/cell/对比")
-liver = read.table(file="GSE96981_data.human.liver.csv",header=T,sep=",")
+liver = read.table(file="data.human.liver.csv",header=T,sep=",")
 TFlist1<-read.table(file="Homo_sapiens_TF.txt",header=T,sep="\t")
 TFlist2<-read.table(file="trrust_rawdata.human.txt",header=F,sep="\t")
 type <- liver$category
